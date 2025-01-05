@@ -2,7 +2,7 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        Account account = new Account("Jan Kowalski", 1000, "123456789");
+        Account account = new Account("Cris Brown", 10, "123456789");
 
         try {
             account.transfer(1500);
